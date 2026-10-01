@@ -1,2 +1,19 @@
 __pycache__/
 *.py[cod]
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Python environments and tool caches
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
